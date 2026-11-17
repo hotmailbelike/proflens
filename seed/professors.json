@@ -1,0 +1,146 @@
+[
+  {
+    "id": "odalys-brennwick",
+    "name": "Odalys Brennwick",
+    "initials": "OB",
+    "university": "Northbridge University",
+    "department": "Computer Science",
+    "courses": ["CS 101", "CS 240", "CS 315"]
+  },
+  {
+    "id": "tobiah-ferncastle",
+    "name": "Tobiah Ferncastle",
+    "initials": "TF",
+    "university": "Northbridge University",
+    "department": "Mechanical Engineering",
+    "courses": ["ME 201", "ME 330"]
+  },
+  {
+    "id": "ines-quarrington",
+    "name": "Ines Quarrington",
+    "initials": "IQ",
+    "university": "Northbridge University",
+    "department": "Psychology",
+    "courses": ["PSY 100", "PSY 250", "PSY 340"]
+  },
+  {
+    "id": "corwin-ashgrove",
+    "name": "Corwin Ashgrove",
+    "initials": "CA",
+    "university": "Northbridge University",
+    "department": "History",
+    "courses": ["HIST 110", "HIST 275"]
+  },
+  {
+    "id": "zinnia-okonkwell",
+    "name": "Zinnia Okonkwell",
+    "initials": "ZO",
+    "university": "Northbridge University",
+    "department": "Economics",
+    "courses": ["ECON 101", "ECON 220"]
+  },
+  {
+    "id": "leopold-vantreese",
+    "name": "Leopold Vantreese",
+    "initials": "LV",
+    "university": "Northbridge University",
+    "department": "Mathematics",
+    "courses": ["MATH 135", "MATH 237", "MATH 310"]
+  },
+  {
+    "id": "saoirse-kilbarrow",
+    "name": "Saoirse Kilbarrow",
+    "initials": "SK",
+    "university": "Lakeside Institute of Technology",
+    "department": "Electrical Engineering",
+    "courses": ["EE 150", "EE 260", "EE 345"]
+  },
+  {
+    "id": "ambrose-tillingham",
+    "name": "Ambrose Tillingham",
+    "initials": "AT",
+    "university": "Lakeside Institute of Technology",
+    "department": "Physics",
+    "courses": ["PHYS 121", "PHYS 222"]
+  },
+  {
+    "id": "lucinda-varrowby",
+    "name": "Lucinda Varrowby",
+    "initials": "LV",
+    "university": "Lakeside Institute of Technology",
+    "department": "Data Science",
+    "courses": ["DS 200", "DS 310"]
+  },
+  {
+    "id": "fennick-draymoor",
+    "name": "Fennick Draymoor",
+    "initials": "FD",
+    "university": "Lakeside Institute of Technology",
+    "department": "Chemistry",
+    "courses": ["CHEM 101", "CHEM 210"]
+  },
+  {
+    "id": "rosalind-quenby",
+    "name": "Rosalind Quenby",
+    "initials": "RQ",
+    "university": "Lakeside Institute of Technology",
+    "department": "Architecture",
+    "courses": ["ARCH 120", "ARCH 230"]
+  },
+  {
+    "id": "caspian-wexcombe",
+    "name": "Caspian Wexcombe",
+    "initials": "CW",
+    "university": "Lakeside Institute of Technology",
+    "department": "Computer Science",
+    "courses": ["CS 210", "CS 350", "CS 420"]
+  },
+  {
+    "id": "beatrix-lanyon-fell",
+    "name": "Beatrix Lanyon-Fell",
+    "initials": "BL",
+    "university": "Harbor City College",
+    "department": "English Literature",
+    "courses": ["ENG 101", "ENG 215"]
+  },
+  {
+    "id": "ezekiel-brackwater",
+    "name": "Ezekiel Brackwater",
+    "initials": "EB",
+    "university": "Harbor City College",
+    "department": "Biology",
+    "courses": ["BIO 110", "BIO 205"]
+  },
+  {
+    "id": "henrietta-morrowfield",
+    "name": "Henrietta Morrowfield",
+    "initials": "HM",
+    "university": "Harbor City College",
+    "department": "Business Administration",
+    "courses": ["BUS 100", "BUS 230"]
+  },
+  {
+    "id": "bartholomew-seddrick",
+    "name": "Bartholomew Seddrick",
+    "initials": "BS",
+    "university": "Harbor City College",
+    "department": "Philosophy",
+    "courses": ["PHIL 101", "PHIL 220"]
+  },
+  {
+    "id": "clementine-oxbury",
+    "name": "Clementine Oxbury",
+    "initials": "CO",
+    "university": "Harbor City College",
+    "department": "Nursing",
+    "courses": ["NURS 110", "NURS 240"]
+  },
+  {
+    "id": "ignatius-pellbrook",
+    "name": "Ignatius Pellbrook",
+    "initials": "IP",
+    "university": "Harbor City College",
+    "department": "Graphic Design",
+    "courses": ["GD 101", "GD 210"]
+  }
+]
