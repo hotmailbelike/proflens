@@ -1,0 +1,113 @@
+rules_version = '2';
+
+// ProfLens has no sign-in and no server code, so these rules are the only validation a review
+// gets before it is stored. Professors are seeded by the owner (scripts/seed.mjs uses an OAuth
+// token, which bypasses rules) and are read-only to clients. Anyone may read reviews and post
+// one; nothing can be updated or deleted. Keep the lists below in sync with src/lib/reviewOptions.ts.
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    function reviewKeys() {
+      return [
+        'course',
+        'rating',
+        'difficulty',
+        'wouldTakeAgain',
+        'forCredit',
+        'textbookUsed',
+        'attendanceMandatory',
+        'grade',
+        'tags',
+        'comment',
+        'createdAt'
+      ];
+    }
+
+    function allowedTags() {
+      return [
+        'Clear explanations',
+        'Tough grader',
+        'Lots of homework',
+        'Inspirational',
+        'Caring',
+        'Group projects',
+        'Lecture heavy',
+        'Accessible outside class',
+        'Get ready to read',
+        'Amazing lectures'
+      ];
+    }
+
+    function allowedGrades() {
+      return [
+        'A+', 'A', 'A-',
+        'B+', 'B', 'B-',
+        'C+', 'C', 'C-',
+        'D+', 'D', 'D-',
+        'F',
+        'Not sure yet',
+        'Rather not say'
+      ];
+    }
+
+    function isScore(value) {
+      return value is int && value >= 1 && value <= 5;
+    }
+
+    // hasOnly checks membership; comparing against the set size rejects a tag picked twice.
+    function isValidTags(tags) {
+      return tags is list
+        && tags.size() <= 3
+        && tags.hasOnly(allowedTags())
+        && tags.toSet().size() == tags.size();
+    }
+
+    function isValidComment(comment) {
+      return comment is string
+        && comment.size() >= 20
+        && comment.size() <= 350
+        && comment.trim().size() >= 20;
+    }
+
+    function isValidNewReview(professorId, review) {
+      let professor = get(/databases/$(database)/documents/professors/$(professorId)).data;
+      return review.keys().hasOnly(reviewKeys())
+        && review.keys().hasAll(reviewKeys())
+        && review.course is string
+        && review.course in professor.courses
+        && isScore(review.rating)
+        && isScore(review.difficulty)
+        && review.wouldTakeAgain is bool
+        && review.forCredit is bool
+        && review.textbookUsed is bool
+        && review.attendanceMandatory is bool
+        && review.grade is string
+        && review.grade in allowedGrades()
+        && isValidTags(review.tags)
+        && isValidComment(review.comment)
+        && review.createdAt == request.time;
+    }
+
+    // The app creates reviews with addDoc, which gives 20-character auto ids. Requiring that
+    // shape stops anyone from claiming chosen ids.
+    function isAutoId(id) {
+      return id.matches('^[A-Za-z0-9]{20}$');
+    }
+
+    match /professors/{professorId} {
+      allow get, list: if true;
+      allow create, update, delete: if false;
+
+      match /reviews/{reviewId} {
+        allow get, list: if true;
+        allow create: if isAutoId(reviewId) && isValidNewReview(professorId, request.resource.data);
+        allow update, delete: if false;
+      }
+    }
+
+    // Everything else is denied.
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}
