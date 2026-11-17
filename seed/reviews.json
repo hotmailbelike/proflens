@@ -1,0 +1,866 @@
+{
+  "odalys-brennwick": [
+    {
+      "id": "seed-01",
+      "course": "CS 240",
+      "rating": 5,
+      "difficulty": 3,
+      "wouldTakeAgain": true,
+      "forCredit": true,
+      "textbookUsed": false,
+      "attendanceMandatory": false,
+      "grade": "A",
+      "tags": [
+        "Clear explanations",
+        "Amazing lectures"
+      ],
+      "comment": "Her data structures lectures are the best I've had. She draws every pointer on the board and walks through edge cases until they click. Office hours are packed for a reason.",
+      "createdAt": "2026-03-14T15:20:00Z"
+    },
+    {
+      "id": "seed-02",
+      "course": "CS 101",
+      "rating": 4,
+      "difficulty": 2,
+      "wouldTakeAgain": true,
+      "forCredit": true,
+      "textbookUsed": false,
+      "attendanceMandatory": true,
+      "grade": "A-",
+      "tags": [
+        "Caring",
+        "Accessible outside class"
+      ],
+      "comment": "Great first programming course. Labs are short and well scaffolded, and she remembers everyone's name by week three. Attendance counts, so plan for it.",
+      "createdAt": "2025-11-02T18:05:00Z"
+    },
+    {
+      "id": "seed-03",
+      "course": "CS 315",
+      "rating": 3,
+      "difficulty": 4,
+      "wouldTakeAgain": false,
+      "forCredit": true,
+      "textbookUsed": true,
+      "attendanceMandatory": true,
+      "grade": "B",
+      "tags": [
+        "Tough grader",
+        "Lots of homework"
+      ],
+      "comment": "Knows the material deeply, but the weekly problem sets for algorithms are long and marked strictly. Start them early and go to the review sessions.",
+      "createdAt": "2026-04-21T21:40:00Z"
+    }
+  ],
+  "tobiah-ferncastle": [
+    {
+      "id": "seed-01",
+      "course": "ME 201",
+      "rating": 4,
+      "difficulty": 4,
+      "wouldTakeAgain": true,
+      "forCredit": true,
+      "textbookUsed": true,
+      "attendanceMandatory": true,
+      "grade": "B+",
+      "tags": [
+        "Clear explanations",
+        "Tough grader"
+      ],
+      "comment": "Statics is hard no matter who teaches it, but he makes free body diagrams feel systematic. Exams are fair if you did every practice problem.",
+      "createdAt": "2026-02-09T14:10:00Z"
+    },
+    {
+      "id": "seed-02",
+      "course": "ME 330",
+      "rating": 3,
+      "difficulty": 5,
+      "wouldTakeAgain": false,
+      "forCredit": true,
+      "textbookUsed": true,
+      "attendanceMandatory": true,
+      "grade": "B-",
+      "tags": [
+        "Lots of homework",
+        "Lecture heavy"
+      ],
+      "comment": "Thermodynamics with him is a grind. Lectures move fast and mostly follow the textbook derivations. Helpful one on one, but the course load is heavy.",
+      "createdAt": "2025-12-15T19:30:00Z"
+    }
+  ],
+  "ines-quarrington": [
+    {
+      "id": "seed-01",
+      "course": "PSY 100",
+      "rating": 5,
+      "difficulty": 2,
+      "wouldTakeAgain": true,
+      "forCredit": true,
+      "textbookUsed": true,
+      "attendanceMandatory": false,
+      "grade": "A",
+      "tags": [
+        "Inspirational",
+        "Amazing lectures",
+        "Caring"
+      ],
+      "comment": "She makes intro psych feel like a story. Every lecture ties a classic study to something from everyday life. I switched my minor because of this class.",
+      "createdAt": "2026-01-28T16:45:00Z"
+    },
+    {
+      "id": "seed-02",
+      "course": "PSY 250",
+      "rating": 4,
+      "difficulty": 3,
+      "wouldTakeAgain": true,
+      "forCredit": true,
+      "textbookUsed": true,
+      "attendanceMandatory": false,
+      "grade": "A-",
+      "tags": [
+        "Get ready to read",
+        "Clear explanations"
+      ],
+      "comment": "Research methods means a lot of reading, but she tells you exactly what to focus on. The group lab report was the hardest part.",
+      "createdAt": "2025-10-19T13:00:00Z"
+    },
+    {
+      "id": "seed-03",
+      "course": "PSY 340",
+      "rating": 5,
+      "difficulty": 3,
+      "wouldTakeAgain": true,
+      "forCredit": true,
+      "textbookUsed": false,
+      "attendanceMandatory": false,
+      "grade": "Not sure yet",
+      "tags": [
+        "Accessible outside class",
+        "Caring"
+      ],
+      "comment": "Cognitive psych seminar with lots of discussion. She answers emails quickly and gives detailed feedback on drafts before the final paper.",
+      "createdAt": "2026-05-06T20:15:00Z"
+    },
+    {
+      "id": "seed-04",
+      "course": "PSY 100",
+      "rating": 4,
+      "difficulty": 1,
+      "wouldTakeAgain": true,
+      "forCredit": false,
+      "textbookUsed": true,
+      "attendanceMandatory": false,
+      "grade": "Rather not say",
+      "tags": [
+        "Lecture heavy"
+      ],
+      "comment": "Easy to follow and genuinely interesting, though it is mostly lecture. Recordings are posted, which helped when I was sick for a week.",
+      "createdAt": "2025-09-30T11:25:00Z"
+    }
+  ],
+  "corwin-ashgrove": [
+    {
+      "id": "seed-01",
+      "course": "HIST 110",
+      "rating": 3,
+      "difficulty": 3,
+      "wouldTakeAgain": false,
+      "forCredit": true,
+      "textbookUsed": true,
+      "attendanceMandatory": true,
+      "grade": "B",
+      "tags": [
+        "Get ready to read",
+        "Lecture heavy"
+      ],
+      "comment": "Very knowledgeable, but lectures are long monologues with few slides. Expect a book chapter plus primary sources every week.",
+      "createdAt": "2026-03-03T17:50:00Z"
+    },
+    {
+      "id": "seed-02",
+      "course": "HIST 275",
+      "rating": 4,
+      "difficulty": 3,
+      "wouldTakeAgain": true,
+      "forCredit": true,
+      "textbookUsed": true,
+      "attendanceMandatory": false,
+      "grade": "A-",
+      "tags": [
+        "Inspirational",
+        "Get ready to read"
+      ],
+      "comment": "The seminar on Nordic trade routes was fascinating once discussions got going. He rewards original arguments over memorized dates.",
+      "createdAt": "2025-11-24T15:35:00Z"
+    }
+  ],
+  "zinnia-okonkwell": [
+    {
+      "id": "seed-01",
+      "course": "ECON 101",
+      "rating": 5,
+      "difficulty": 2,
+      "wouldTakeAgain": true,
+      "forCredit": true,
+      "textbookUsed": false,
+      "attendanceMandatory": false,
+      "grade": "A",
+      "tags": [
+        "Clear explanations",
+        "Amazing lectures"
+      ],
+      "comment": "Uses real headlines to explain supply and demand, and the weekly quizzes keep you on track without being stressful. Best intro econ option.",
+      "createdAt": "2026-02-17T12:40:00Z"
+    },
+    {
+      "id": "seed-02",
+      "course": "ECON 220",
+      "rating": 4,
+      "difficulty": 4,
+      "wouldTakeAgain": true,
+      "forCredit": true,
+      "textbookUsed": true,
+      "attendanceMandatory": true,
+      "grade": "B+",
+      "tags": [
+        "Tough grader",
+        "Clear explanations"
+      ],
+      "comment": "Intermediate macro is math heavy and her exams give no credit for sloppy graphs. Her explanations are excellent if you keep up.",
+      "createdAt": "2026-04-08T22:10:00Z"
+    },
+    {
+      "id": "seed-03",
+      "course": "ECON 101",
+      "rating": 4,
+      "difficulty": 2,
+      "wouldTakeAgain": true,
+      "forCredit": true,
+      "textbookUsed": false,
+      "attendanceMandatory": true,
+      "grade": "A-",
+      "tags": [
+        "Caring",
+        "Group projects"
+      ],
+      "comment": "Friendly and organized. The group policy brief was a lot of coordination, but she checked in with every team before the deadline.",
+      "createdAt": "2025-10-05T16:00:00Z"
+    }
+  ],
+  "leopold-vantreese": [
+    {
+      "id": "seed-01",
+      "course": "MATH 135",
+      "rating": 2,
+      "difficulty": 4,
+      "wouldTakeAgain": false,
+      "forCredit": true,
+      "textbookUsed": true,
+      "attendanceMandatory": true,
+      "grade": "C+",
+      "tags": [
+        "Tough grader",
+        "Lots of homework"
+      ],
+      "comment": "Moves through proofs very quickly and assumes a lot of background. The textbook and the tutoring center got me through more than the lectures did.",
+      "createdAt": "2025-12-02T18:20:00Z"
+    },
+    {
+      "id": "seed-02",
+      "course": "MATH 237",
+      "rating": 4,
+      "difficulty": 4,
+      "wouldTakeAgain": true,
+      "forCredit": true,
+      "textbookUsed": true,
+      "attendanceMandatory": false,
+      "grade": "B+",
+      "tags": [
+        "Clear explanations",
+        "Accessible outside class"
+      ],
+      "comment": "Much better in a smaller class. Linear algebra clicked once I started going to his office hours, where he is patient and thorough.",
+      "createdAt": "2026-03-25T14:55:00Z"
+    },
+    {
+      "id": "seed-03",
+      "course": "MATH 310",
+      "rating": 3,
+      "difficulty": 5,
+      "wouldTakeAgain": false,
+      "forCredit": true,
+      "textbookUsed": true,
+      "attendanceMandatory": false,
+      "grade": "B-",
+      "tags": [
+        "Tough grader",
+        "Get ready to read"
+      ],
+      "comment": "Real analysis is demanding and he does not soften it. Fair grader in the end, but expect to rewrite proofs many times.",
+      "createdAt": "2026-05-12T19:05:00Z"
+    }
+  ],
+  "saoirse-kilbarrow": [
+    {
+      "id": "seed-01",
+      "course": "EE 260",
+      "rating": 5,
+      "difficulty": 4,
+      "wouldTakeAgain": true,
+      "forCredit": true,
+      "textbookUsed": false,
+      "attendanceMandatory": true,
+      "grade": "A-",
+      "tags": [
+        "Amazing lectures",
+        "Clear explanations"
+      ],
+      "comment": "Circuits finally made sense. Every lecture ends with a live demo on the bench, and the labs line up exactly with what she taught that week.",
+      "createdAt": "2026-02-26T15:15:00Z"
+    },
+    {
+      "id": "seed-02",
+      "course": "EE 150",
+      "rating": 4,
+      "difficulty": 3,
+      "wouldTakeAgain": true,
+      "forCredit": true,
+      "textbookUsed": false,
+      "attendanceMandatory": true,
+      "grade": "B+",
+      "tags": [
+        "Group projects",
+        "Caring"
+      ],
+      "comment": "The intro design project is a lot of work but very rewarding. She meets each team twice and gives honest, useful feedback.",
+      "createdAt": "2025-11-11T17:45:00Z"
+    },
+    {
+      "id": "seed-03",
+      "course": "EE 345",
+      "rating": 4,
+      "difficulty": 5,
+      "wouldTakeAgain": true,
+      "forCredit": true,
+      "textbookUsed": true,
+      "attendanceMandatory": true,
+      "grade": "B",
+      "tags": [
+        "Lots of homework",
+        "Tough grader"
+      ],
+      "comment": "Signals and systems is demanding and the homework is long. She is clear and fair, just do not fall behind.",
+      "createdAt": "2026-04-30T21:30:00Z"
+    }
+  ],
+  "ambrose-tillingham": [
+    {
+      "id": "seed-01",
+      "course": "PHYS 121",
+      "rating": 3,
+      "difficulty": 3,
+      "wouldTakeAgain": true,
+      "forCredit": true,
+      "textbookUsed": true,
+      "attendanceMandatory": false,
+      "grade": "B",
+      "tags": [
+        "Lecture heavy",
+        "Clear explanations"
+      ],
+      "comment": "Solid but dry lectures. He explains concepts well when asked, and the exams match the practice sets closely.",
+      "createdAt": "2025-10-22T13:35:00Z"
+    },
+    {
+      "id": "seed-02",
+      "course": "PHYS 222",
+      "rating": 2,
+      "difficulty": 4,
+      "wouldTakeAgain": false,
+      "forCredit": true,
+      "textbookUsed": true,
+      "attendanceMandatory": true,
+      "grade": "C",
+      "tags": [
+        "Tough grader",
+        "Lots of homework"
+      ],
+      "comment": "Electricity and magnetism felt rushed this term. Grading on the problem sets was inconsistent between TAs, and feedback came back late.",
+      "createdAt": "2026-03-09T20:50:00Z"
+    },
+    {
+      "id": "seed-03",
+      "course": "PHYS 121",
+      "rating": 4,
+      "difficulty": 3,
+      "wouldTakeAgain": true,
+      "forCredit": true,
+      "textbookUsed": true,
+      "attendanceMandatory": false,
+      "grade": "A-",
+      "tags": [
+        "Accessible outside class"
+      ],
+      "comment": "Quiet in lecture but very approachable in office hours. He spent forty minutes helping me with rotational motion before the midterm.",
+      "createdAt": "2026-05-18T16:25:00Z"
+    }
+  ],
+  "lucinda-varrowby": [
+    {
+      "id": "seed-01",
+      "course": "DS 200",
+      "rating": 5,
+      "difficulty": 3,
+      "wouldTakeAgain": true,
+      "forCredit": true,
+      "textbookUsed": false,
+      "attendanceMandatory": false,
+      "grade": "A",
+      "tags": [
+        "Amazing lectures",
+        "Inspirational",
+        "Clear explanations"
+      ],
+      "comment": "Practical and current. Every concept comes with a notebook you can run, and the final project uses a public dataset of your choice.",
+      "createdAt": "2026-01-20T14:00:00Z"
+    },
+    {
+      "id": "seed-02",
+      "course": "DS 310",
+      "rating": 4,
+      "difficulty": 4,
+      "wouldTakeAgain": true,
+      "forCredit": true,
+      "textbookUsed": false,
+      "attendanceMandatory": false,
+      "grade": "A-",
+      "tags": [
+        "Group projects",
+        "Lots of homework"
+      ],
+      "comment": "Machine learning with a heavy project load. She is enthusiastic and gives great feedback, but plan for long weeks near deadlines.",
+      "createdAt": "2026-04-14T18:40:00Z"
+    }
+  ],
+  "fennick-draymoor": [
+    {
+      "id": "seed-01",
+      "course": "CHEM 101",
+      "rating": 3,
+      "difficulty": 3,
+      "wouldTakeAgain": true,
+      "forCredit": true,
+      "textbookUsed": true,
+      "attendanceMandatory": true,
+      "grade": "B",
+      "tags": [
+        "Lecture heavy",
+        "Get ready to read"
+      ],
+      "comment": "Covers a huge amount of material. The lectures are organized, but you need to read ahead to keep up with the pace.",
+      "createdAt": "2025-09-25T12:15:00Z"
+    },
+    {
+      "id": "seed-02",
+      "course": "CHEM 210",
+      "rating": 4,
+      "difficulty": 5,
+      "wouldTakeAgain": true,
+      "forCredit": true,
+      "textbookUsed": true,
+      "attendanceMandatory": true,
+      "grade": "B-",
+      "tags": [
+        "Tough grader",
+        "Caring"
+      ],
+      "comment": "Organic chemistry is hard and his exams are tough, but he clearly wants students to succeed and runs extra review sessions before each exam.",
+      "createdAt": "2026-02-03T17:10:00Z"
+    },
+    {
+      "id": "seed-03",
+      "course": "CHEM 101",
+      "rating": 2,
+      "difficulty": 3,
+      "wouldTakeAgain": false,
+      "forCredit": true,
+      "textbookUsed": true,
+      "attendanceMandatory": true,
+      "grade": "C+",
+      "tags": [
+        "Lots of homework"
+      ],
+      "comment": "Online homework every night plus weekly lab reports. The content was fine, but the workload felt out of proportion for an intro course.",
+      "createdAt": "2026-05-01T22:35:00Z"
+    }
+  ],
+  "rosalind-quenby": [
+    {
+      "id": "seed-01",
+      "course": "ARCH 120",
+      "rating": 5,
+      "difficulty": 4,
+      "wouldTakeAgain": true,
+      "forCredit": true,
+      "textbookUsed": false,
+      "attendanceMandatory": true,
+      "grade": "A",
+      "tags": [
+        "Inspirational",
+        "Caring"
+      ],
+      "comment": "Studio critiques with her are honest but always constructive. She pushed me to explain every design decision, and my work got much better.",
+      "createdAt": "2026-03-18T15:50:00Z"
+    },
+    {
+      "id": "seed-02",
+      "course": "ARCH 230",
+      "rating": 4,
+      "difficulty": 4,
+      "wouldTakeAgain": true,
+      "forCredit": true,
+      "textbookUsed": true,
+      "attendanceMandatory": true,
+      "grade": "A-",
+      "tags": [
+        "Group projects",
+        "Accessible outside class"
+      ],
+      "comment": "Lots of late studio nights, as expected. She is in the studio most evenings and happy to look at sketches.",
+      "createdAt": "2025-12-08T21:05:00Z"
+    },
+    {
+      "id": "seed-03",
+      "course": "ARCH 120",
+      "rating": 4,
+      "difficulty": 3,
+      "wouldTakeAgain": true,
+      "forCredit": false,
+      "textbookUsed": false,
+      "attendanceMandatory": true,
+      "grade": "Rather not say",
+      "tags": [
+        "Amazing lectures"
+      ],
+      "comment": "I audited her history of form lectures and loved them. Great slides and a story behind every building.",
+      "createdAt": "2026-05-22T13:20:00Z"
+    }
+  ],
+  "caspian-wexcombe": [
+    {
+      "id": "seed-01",
+      "course": "CS 350",
+      "rating": 5,
+      "difficulty": 4,
+      "wouldTakeAgain": true,
+      "forCredit": true,
+      "textbookUsed": false,
+      "attendanceMandatory": false,
+      "grade": "A-",
+      "tags": [
+        "Clear explanations",
+        "Amazing lectures"
+      ],
+      "comment": "Operating systems with him is challenging but brilliantly taught. The projects are hard, and his explanations of concurrency are the clearest I have seen.",
+      "createdAt": "2026-02-11T16:30:00Z"
+    },
+    {
+      "id": "seed-02",
+      "course": "CS 210",
+      "rating": 4,
+      "difficulty": 3,
+      "wouldTakeAgain": true,
+      "forCredit": true,
+      "textbookUsed": false,
+      "attendanceMandatory": true,
+      "grade": "B+",
+      "tags": [
+        "Lots of homework",
+        "Accessible outside class"
+      ],
+      "comment": "Weekly coding assignments add up, but the autograder feedback is fast and he answers forum questions within hours.",
+      "createdAt": "2025-10-28T19:45:00Z"
+    },
+    {
+      "id": "seed-03",
+      "course": "CS 420",
+      "rating": 3,
+      "difficulty": 5,
+      "wouldTakeAgain": true,
+      "forCredit": true,
+      "textbookUsed": true,
+      "attendanceMandatory": false,
+      "grade": "Not sure yet",
+      "tags": [
+        "Tough grader",
+        "Get ready to read"
+      ],
+      "comment": "Compilers is a big jump. He expects you to read papers on your own and the project milestones are strict, but you learn a lot.",
+      "createdAt": "2026-05-09T14:35:00Z"
+    }
+  ],
+  "beatrix-lanyon-fell": [
+    {
+      "id": "seed-01",
+      "course": "ENG 101",
+      "rating": 5,
+      "difficulty": 2,
+      "wouldTakeAgain": true,
+      "forCredit": true,
+      "textbookUsed": true,
+      "attendanceMandatory": true,
+      "grade": "A",
+      "tags": [
+        "Caring",
+        "Clear explanations"
+      ],
+      "comment": "She gives line by line feedback on every essay and lets you revise once for a better grade. My writing improved more than in any other class.",
+      "createdAt": "2026-01-15T17:00:00Z"
+    },
+    {
+      "id": "seed-02",
+      "course": "ENG 215",
+      "rating": 4,
+      "difficulty": 3,
+      "wouldTakeAgain": true,
+      "forCredit": true,
+      "textbookUsed": true,
+      "attendanceMandatory": true,
+      "grade": "A-",
+      "tags": [
+        "Get ready to read",
+        "Inspirational"
+      ],
+      "comment": "A novel every two weeks, so keep up with the reading. Discussions are lively and she makes sure quieter students get heard.",
+      "createdAt": "2026-04-02T12:50:00Z"
+    },
+    {
+      "id": "seed-03",
+      "course": "ENG 101",
+      "rating": 3,
+      "difficulty": 2,
+      "wouldTakeAgain": false,
+      "forCredit": true,
+      "textbookUsed": true,
+      "attendanceMandatory": true,
+      "grade": "B+",
+      "tags": [
+        "Lecture heavy"
+      ],
+      "comment": "Kind and organized, but the pace was slow for me and some sessions repeated the readings without adding much.",
+      "createdAt": "2025-11-17T20:25:00Z"
+    }
+  ],
+  "ezekiel-brackwater": [
+    {
+      "id": "seed-01",
+      "course": "BIO 110",
+      "rating": 4,
+      "difficulty": 3,
+      "wouldTakeAgain": true,
+      "forCredit": true,
+      "textbookUsed": true,
+      "attendanceMandatory": true,
+      "grade": "B+",
+      "tags": [
+        "Clear explanations",
+        "Caring"
+      ],
+      "comment": "Explains cell biology with great diagrams and checks in on the class often. Lab quizzes are short and fair.",
+      "createdAt": "2025-10-10T15:40:00Z"
+    },
+    {
+      "id": "seed-02",
+      "course": "BIO 205",
+      "rating": 5,
+      "difficulty": 4,
+      "wouldTakeAgain": true,
+      "forCredit": true,
+      "textbookUsed": true,
+      "attendanceMandatory": true,
+      "grade": "A-",
+      "tags": [
+        "Amazing lectures",
+        "Accessible outside class"
+      ],
+      "comment": "Genetics was my favorite course this year. He connects every topic to real research and is always willing to talk after class.",
+      "createdAt": "2026-03-29T18:15:00Z"
+    }
+  ],
+  "henrietta-morrowfield": [
+    {
+      "id": "seed-01",
+      "course": "BUS 100",
+      "rating": 4,
+      "difficulty": 2,
+      "wouldTakeAgain": true,
+      "forCredit": true,
+      "textbookUsed": false,
+      "attendanceMandatory": true,
+      "grade": "A",
+      "tags": [
+        "Group projects",
+        "Clear explanations"
+      ],
+      "comment": "Lots of case studies and a team pitch at the end. Her rubrics are clear, so you always know what she expects.",
+      "createdAt": "2026-02-20T13:30:00Z"
+    },
+    {
+      "id": "seed-02",
+      "course": "BUS 230",
+      "rating": 3,
+      "difficulty": 3,
+      "wouldTakeAgain": false,
+      "forCredit": true,
+      "textbookUsed": true,
+      "attendanceMandatory": true,
+      "grade": "B",
+      "tags": [
+        "Group projects",
+        "Tough grader"
+      ],
+      "comment": "Marketing strategy with constant group work. Some teams struggled and peer evaluations did not fully fix that. The content is useful though.",
+      "createdAt": "2025-12-11T16:55:00Z"
+    },
+    {
+      "id": "seed-03",
+      "course": "BUS 100",
+      "rating": 4,
+      "difficulty": 2,
+      "wouldTakeAgain": true,
+      "forCredit": true,
+      "textbookUsed": false,
+      "attendanceMandatory": true,
+      "grade": "A-",
+      "tags": [
+        "Inspirational"
+      ],
+      "comment": "She brings in local founders as guest speakers, which made the course feel very real. Attendance is graded through short check-ins.",
+      "createdAt": "2026-05-15T19:20:00Z"
+    }
+  ],
+  "bartholomew-seddrick": [
+    {
+      "id": "seed-01",
+      "course": "PHIL 101",
+      "rating": 5,
+      "difficulty": 3,
+      "wouldTakeAgain": true,
+      "forCredit": true,
+      "textbookUsed": true,
+      "attendanceMandatory": false,
+      "grade": "A-",
+      "tags": [
+        "Amazing lectures",
+        "Inspirational"
+      ],
+      "comment": "Turns every lecture into a debate you want to join. He is genuinely curious about student arguments, even the weak ones.",
+      "createdAt": "2026-01-24T14:45:00Z"
+    },
+    {
+      "id": "seed-02",
+      "course": "PHIL 220",
+      "rating": 4,
+      "difficulty": 4,
+      "wouldTakeAgain": true,
+      "forCredit": true,
+      "textbookUsed": true,
+      "attendanceMandatory": false,
+      "grade": "B+",
+      "tags": [
+        "Get ready to read",
+        "Tough grader"
+      ],
+      "comment": "Ethics readings are dense and the essays are graded strictly on argument structure. Use his feedback and your grade will climb.",
+      "createdAt": "2026-04-19T21:00:00Z"
+    }
+  ],
+  "clementine-oxbury": [
+    {
+      "id": "seed-01",
+      "course": "NURS 110",
+      "rating": 5,
+      "difficulty": 3,
+      "wouldTakeAgain": true,
+      "forCredit": true,
+      "textbookUsed": true,
+      "attendanceMandatory": true,
+      "grade": "A",
+      "tags": [
+        "Caring",
+        "Clear explanations"
+      ],
+      "comment": "Calm, patient and very organized. Skills labs are well planned and she makes sure everyone gets practice time with feedback.",
+      "createdAt": "2025-11-06T12:30:00Z"
+    },
+    {
+      "id": "seed-02",
+      "course": "NURS 240",
+      "rating": 4,
+      "difficulty": 4,
+      "wouldTakeAgain": true,
+      "forCredit": true,
+      "textbookUsed": true,
+      "attendanceMandatory": true,
+      "grade": "B+",
+      "tags": [
+        "Lots of homework",
+        "Accessible outside class"
+      ],
+      "comment": "Pharmacology is a lot of memorization, and the weekly care plans take time. She holds extra sessions before every exam.",
+      "createdAt": "2026-03-12T17:35:00Z"
+    },
+    {
+      "id": "seed-03",
+      "course": "NURS 110",
+      "rating": 4,
+      "difficulty": 3,
+      "wouldTakeAgain": true,
+      "forCredit": true,
+      "textbookUsed": true,
+      "attendanceMandatory": true,
+      "grade": "Not sure yet",
+      "tags": [
+        "Lecture heavy"
+      ],
+      "comment": "Lectures are dense with slides, but everything on the exam is covered in them. Very supportive during clinical placement prep.",
+      "createdAt": "2026-05-20T15:05:00Z"
+    }
+  ],
+  "ignatius-pellbrook": [
+    {
+      "id": "seed-01",
+      "course": "GD 101",
+      "rating": 5,
+      "difficulty": 2,
+      "wouldTakeAgain": true,
+      "forCredit": true,
+      "textbookUsed": false,
+      "attendanceMandatory": true,
+      "grade": "A",
+      "tags": [
+        "Inspirational",
+        "Caring"
+      ],
+      "comment": "Encouraging and full of practical tips about type and layout. Critiques are friendly but honest, and he shares industry examples every class.",
+      "createdAt": "2026-02-05T18:50:00Z"
+    },
+    {
+      "id": "seed-02",
+      "course": "GD 210",
+      "rating": 3,
+      "difficulty": 3,
+      "wouldTakeAgain": true,
+      "forCredit": true,
+      "textbookUsed": false,
+      "attendanceMandatory": true,
+      "grade": "B",
+      "tags": [
+        "Group projects",
+        "Lots of homework"
+      ],
+      "comment": "Branding projects are fun but the brief changed midway through the term, which made planning hard. Still learned a lot.",
+      "createdAt": "2025-12-19T14:20:00Z"
+    }
+  ]
+}
